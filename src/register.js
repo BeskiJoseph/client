@@ -32,7 +32,7 @@ export default function Register() {
                 setName('');
                 setEmail('');
                 setPassword('');
-                setLoading(false);
+               
             })
             .catch(error => {
                 setLoading(false);
