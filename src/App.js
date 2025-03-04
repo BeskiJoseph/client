@@ -28,6 +28,8 @@ function App() {
         </Container>
       </Navbar>
 
+
+    <Home/>
       
 
       <HashRouter>
@@ -40,7 +42,7 @@ function App() {
           }]
         }}>
           <Routes>
-            <Route path='/home' element={<Home />} />  {/* Default to Home */}
+             {/* Default to Home */}
             <Route path='/register' element={<Register />} />
             <Route path='/deposit' element={<Deposit />} />
             <Route path='/cashback' element={<Cashback />} />
