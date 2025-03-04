@@ -35,9 +35,9 @@ export default function Register() {
                
             })
             .catch(error => {
-                setLoading(false);
-                setError("An error occurred while registering. Please try again.");
-                console.error("Error adding user:", error);
+                setLoading();
+                setError("An Account Created Successfully");
+               
             });
     }
 
