@@ -1,0 +1,22 @@
+.custom-navbar {
+    background-color: #007bff; /* Change this to any color you want */
+    padding: 15px 0;
+  }
+  
+  .custom-navbar .navbar-brand {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .custom-navbar .nav-link {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 15px;
+  }
+  
+  .custom-navbar .nav-link:hover {
+    color: #000000;
+  }
+  
